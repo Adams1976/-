@@ -1,0 +1,85 @@
+
+.container {
+    margin: 200px auto;
+    max-width: 430px;
+    width: 100%;
+    background: white;
+    border-radius: 7px;
+    box-shadow: 2px 2px 25px 5px rgb(8, 250, 129);
+   
+   .form {
+       padding: 30px;
+   }
+} 
+
+.form {
+        
+     header {
+        font-size: 30px;
+        color: #006653;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+     input {
+        height: 60px;
+        width: 100%;
+        padding: 0 15px;
+        font-size: 17px;
+        margin-bottom: 22px;
+        border: 1px solid #ddd; 
+        border-radius: 8px;
+    }
+
+    input:focus {
+        background-color: rgb(226, 223, 223);
+    }
+
+    input:valid {
+        border-color: green; color: green; box-shadow: none;
+    } 
+
+    input:invalid {
+        color: rgb(199, 5, 5) ; box-shadow: none;
+      }
+
+      a {
+        display: flex;
+        justify-content: flex-end;
+        font-size: 15px;
+        color: #009579;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #006653;
+        text-decoration: underline;
+       
+    }
+
+    input.button {
+        color:#fff;
+        background-color:#009579;
+        font-size: 18px;
+        font-weight: 500;
+        letter-spacing: 0.7px;
+        margin-top: 20px;
+        cursor: pointer;
+        transition: 0.5s;
+    }
+
+    input.button:hover {
+        background-color: #006653;
+    }
+}
+
+.reqister {
+    gap: 3px;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+
+a {
+    font-size: 16px;
+    font-weight: 600;
+}
+}
